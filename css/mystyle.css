@@ -1,0 +1,85 @@
+/*body {
+  font-family: 'Sofia';
+  font-size: 22px;
+}*/
+
+/** OVERALL */
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+/*.right{
+  text-align: right;
+}*/
+.centered {
+    text-align: center;
+}
+a {
+  color: white;
+}
+a:hover,
+a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+  flow-into: none;
+}
+
+/**HEADER/JUMBOTRON CONTENT**/
+.jumbotron {
+  margin: 0px auto;
+  padding: 90px 30px;
+  background: #D6E9FF;
+  color: white;
+  /*align-items: center;*/
+  font-family: 'Alegreya Sans SC';
+  font-size: 20px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.jumbotron-name h1{
+  /*color: white;*/
+  font-family: 'Alegreya Sans SC';
+  font-size: 80px;
+  margin-bottom: 0;
+}
+
+
+.row-content {
+  margin: 0px auto;
+  padding: 0px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.contact-links {
+  /*align-items: center;*/
+}
+
+.greeting {
+  /*color: white;*/
+  margin-top: 20px;
+}
+
+/**=======Sections==========**/
+
+.section {
+  margin: 50px;
+}
+
+.section-title{
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+
+.section-content{
+  text-align: center;
+}
+/*.jumbotron .container {
+  width: 1
+}*/
