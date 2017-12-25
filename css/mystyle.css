@@ -15,6 +15,15 @@ p {
 .centered {
     text-align: center;
 }
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
 a {
   color: white;
 }
@@ -69,16 +78,37 @@ a:focus {
 /**=======Sections==========**/
 
 .section {
-  margin: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px ridge;
 }
 
 .section-title{
   margin: 0px auto;
-  padding: 0px 0px;
+  padding: 10px 0px;
+
 }
 
 .section-content{
   text-align: center;
+}
+
+.sect-content-title{
+  margin: 20px;
+}
+
+.exp-desc{
+  font-size: 14px;
+}
+
+.desc-img{
+  width: 100%;
+  align-items: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+.experience-section{
+
 }
 /*.jumbotron .container {
   width: 1
