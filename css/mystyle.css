@@ -24,6 +24,10 @@ p {
   text-align: right;
 }
 
+.vert-center{
+  margin: 15px;
+}
+
 a {
   color: white;
 }
@@ -91,6 +95,7 @@ a:focus {
 
 .section-content{
   text-align: center;
+  margin-left: 50px;
 }
 
 .sect-content-title{
@@ -108,7 +113,34 @@ a:focus {
   vertical-align: middle;
 }
 .experience-section{
+  margin-left: 100px;
+}
 
+/**==Projects==**/
+.projects{
+  margin-left: 0px;
+}
+.project-content{
+  margin-top: 20px;
+  border-bottom: 1px ridge;
+}
+.right-border{
+  border-right: 1px ridge;
+}
+
+.proj-img{
+  width: 130px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.built-tag{
+  font-size: 14px;
+  background-color: lightgrey;
+  border: 3px solid lightgrey;
+  line-height: 200%;
+}
+.project-desc{
+  font-size: 14px;
 }
 /*.jumbotron .container {
   width: 1
