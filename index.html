@@ -4,6 +4,7 @@
 <head>
   <title>Jiayue Li</title>
   <meta name = "author" content= "Jiayue Li">
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Cormorant+Garamond|Lora|Quicksand|Roboto+Slab|Source+Sans+Pro|Spectral+SC" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/bootstrap-theme.min.css" rel ="stylesheet">
@@ -14,31 +15,34 @@
 
 <body>
 
-  <!-- <div class ="header" id = "headerwrap">
-    <div class = "container">
-      <div class = "row centered">
-        <div class = "col-lg-12">
-
-          <h1>Jiayue Li</h1>
-          <a href = "https://github.com/jiayue-li"> GitHub </a>
-
-        </div>
-      </div>
+  <nav class="navbar navbar-toggleable-md navbar-light sticky-top nav-bg horizontal">
+    <a class="navbar-brand" href="#"><span class = "nav-name">J</span><span class = "nav-name small"> I A Y U E </span><span class = "nav-name"> L </span><span class = "nav-name small">I</span></a>
+    <ul class="nav navbar-right">
+      <li class="nav-item nav-button">
+        <a class="navbar-link nav-a" id = "nav-about" href = #>About</a>
+      </li>
+      <li class="nav-item nav-button">
+        <a class="navbar-link nav-a" id = "nav-exp" href = #>Experience</a>
+      </li>
+      <li class="nav-item nav-button">
+        <a class="navbar-link nav-a" id = "nav-proj" href = #>Projects</a>
+      </li>
+    </ul>
     </div>
-  </div> -->
+  </nav>
+
 
   <div class="jumbotron">
     <div class = "container">
       <div class = "row">
 
-        <div class="col-md-5 col-sm-5 col-lg-5">
-          <img src = "assets/me.jpg" class = "img-circle">
+        <div class="col-md-5 col-sm-4 col-lg-4">
+          <img src = "assets/me.jpg" class = "img-circle move-left">
         </div>
 
         <div class = "col-md-7 col-sm-7 col-lg-7">
           <div class = "jumbotron-name">
             <h1>Jiayue Li</h1>
-
             <div class = "contact-links">
               <div class ="row">
                 <div class="col-md-3 col-lg-3">
@@ -67,7 +71,7 @@
     </div>
   </div>
 
-  <div class = "container section">
+  <div class = "container section" id= "about">
     <div class = "row">
       <div class = "section-title">
         <h3> About Me </h3>
@@ -80,7 +84,7 @@
     </div>
   </div>
 
-  <div class = "container section">
+  <div class = "container section" id = "exp">
     <div class = "row">
       <div class = "section-title">
         <h3> Experience </h3>
@@ -91,16 +95,19 @@
           <div class ="sect-content-title">
             <h5>Berkeley Institute of Data Science,</h5>
             <h6>Research Assistant</h6>
+            <span class = "built-tag">python</span>
+            <span class = "built-tag">postgres sql</span>
+            <span class = "built-tag">django</span>
+            <span class = "built-tag">sphinx</span>
           </div>
           <div class ="row">
-            <!-- <div class="col-md-1 col-1 col-lg-1" >
-            </div> -->
             <div class="exp-img col-md-2 col-2 col-lg-2" >
               <img src = "assets/scipylogo.svg" class = "img-circle desc-img">
             </div>
             <div class="exp-desc col-md-9 col-sm-9 col-lg-9 right">
               <p>Currently working on a data rescue project to recover information from SciPyCentral, a forum for developers working with SciPy, a Python library for scientific computing.
-                To do so, I'm restoring SciPyCentral's old website to extract user posts from the database, and using it to create Sphinx documentation and ultimately allow SciPy’s website to support the recovered information.</p>
+                To do so, I'm restoring SciPyCentral's old website to extract user posts from the database, and using it to create Sphinx documentation and ultimately allow SciPy’s website to support the recovered information.
+              </p>
             </div>
           </div>
         </div>
@@ -109,12 +116,16 @@
             <div class ="sect-content-title">
               <h5>MyLive,</h5>
               <h6>iOS Developer</h6>
+              <span class = "built-tag">swift</span>
+              <span class = "built-tag">google firebase</span>
+              <span class = "built-tag">facebook api</span>
             </div>
             <div class ="row">
               <!-- <div class="col-md-1 col-1 col-lg-1" >
               </div> -->
               <div class="exp-desc col-md-9 col-sm-9 col-lg-9 left">
-                <p>MyLive is a map-based social media app targeted at college students, facilitating connections based on popular events at local businesses and organizations. During my time here, I developed views front-end in iOS app, involving navigation controllers, table views, and carousels, etc, and collaborated with teammates back-end in designing an efficient and responsive JSON tree structure for the Google Firebase database. I worked with Google Firebase’s Database and Authentication services and Facebook’s Graph API, which included authenticating users, utilizing Facebook’s Graph for user connections, and retrieving and unpacking JSON data from Firebase into our iOS application.</p>
+                <p>MyLive is a map-based social media app targeted at college students, facilitating connections based on popular events at local businesses and organizations. During my time here, I developed views front-end in iOS app, involving navigation controllers, table views, and carousels, etc, and collaborated with teammates back-end in designing an efficient and responsive JSON tree structure for the Google Firebase database. I worked with Google Firebase’s Database and Authentication services and Facebook’s Graph API, which included authenticating users, utilizing Facebook’s Graph for user connections, and retrieving and unpacking JSON data from Firebase into our iOS application.
+                </p>
               </div>
               <div class="exp-img col-md-2 col-2 col-lg-2" >
                 <img src = "assets/mylivelogo.png" class = "img-circle desc-img">
@@ -127,6 +138,9 @@
           <div class ="sect-content-title">
             <h5>University of California, Berkeley,</h5>
             <h6>Academic Intern for CS61A</h6>
+            <span class = "built-tag">python</span>
+            <span class = "built-tag">sql</span>
+            <span class = "built-tag">scheme</span>
           </div>
           <div class ="row">
             <!-- <div class="col-md-1 col-1 col-lg-1" >
@@ -149,7 +163,7 @@
     </div>
   </div>
 
-  <div class = "container section">
+  <div class = "container section" id= "proj">
 
     <div class = "row">
       <div class = "section-title">
@@ -285,8 +299,13 @@
 
 
 <!--Scripts -->
-
-
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src = "js/script.js"></script>
+    <script src = "https://code.jquery.com/jquery-3.1.0.js"></script>
 </body>
 
 </html>

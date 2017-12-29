@@ -4,14 +4,32 @@
 }*/
 
 /** OVERALL */
+
+body{
+  /* font-family: 'Cabin', sans-serif; */
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: 'Roboto Slab', serif;
+  /* font-family: 'Lora', serif; */
+  /* font-family: 'Quicksand', sans-serif; */
+  /* font-family: 'Spectral SC', serif; */
+  /* font-family: 'Cormorant Garamond', serif; */ */
+  font-size: 20px;
+}
 p {
   line-height: 28px;
   margin-bottom: 25px;
 }
 
-/*.right{
-  text-align: right;
-}*/
+ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.small {
+  font-size: 15px;
+}
 .centered {
     text-align: center;
 }
@@ -43,16 +61,20 @@ a:focus {
 .jumbotron {
   margin: 0px auto;
   padding: 90px 30px;
-  background: #D6E9FF;
+  background: #99A8C9;
   color: white;
   /*align-items: center;*/
-  font-family: 'Alegreya Sans SC';
-  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  /* font-family: 'Alegreya Sans SC'; */
+  font-size: 15px;
 }
 
 .img-circle {
     border-radius: 50%;
-    width: 80%;
+    width: 70%;
+}
+.move-left{
+  margin-left: 50px;
 }
 
 .jumbotron-name h1{
@@ -77,6 +99,40 @@ a:focus {
 .greeting {
   /*color: white;*/
   margin-top: 20px;
+}
+
+/**========NAV==============**/
+.navbar {
+  height:40px;
+
+}
+
+.nav-bg{
+  background-color: #D6DDEE;
+}
+
+.nav-button a{
+    display: block;
+    color: #fff;
+    padding: 8px 20px;
+}
+
+.nav-button a:hover {
+    background: #B9C4DD;
+}
+
+.nav-name{
+  /* font-family: 'Alegreya Sans SC'; */
+  margin-top: 25px;
+  color: #2D4273;
+  font-family: 'Cabin', sans-serif;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  /* font-family: 'Roboto Slab', serif; */
+  /* font-family: 'Lora', serif; */
+  /* font-family: 'Quicksand', sans-serif;
+  font-weight: bold; */
+  /* font-family: 'Spectral SC', serif; */
+  /* font-family: 'Cormorant Garamond', serif; */
 }
 
 /**=======Sections==========**/
