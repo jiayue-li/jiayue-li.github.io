@@ -14,6 +14,7 @@ body{
   /* font-family: 'Spectral SC', serif; */
   /* font-family: 'Cormorant Garamond', serif; */ */
   font-size: 20px;
+  min-width: 270px;
 }
 p {
   line-height: 28px;
@@ -152,6 +153,7 @@ a:focus {
 .section-content{
   text-align: center;
   margin-left: 50px;
+  margin-bottom: 30px;
 }
 
 .sect-content-title{
@@ -197,6 +199,11 @@ a:focus {
 }
 .project-desc{
   font-size: 14px;
+}
+
+/**========Skills Section ==========*/
+.prof-level{
+  margin-top: 4px;
 }
 /*.jumbotron .container {
   width: 1

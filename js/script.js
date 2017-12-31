@@ -17,4 +17,10 @@ $(document).ready(function(){
         scrollTop: $("#proj").offset().top - 80
     }, 2000);
   });
+
+  $("#nav-skills").click(function(){
+    $('html, body').animate({
+        scrollTop: $("#skills").offset().top - 80
+    }, 2000);
+  });
 });
