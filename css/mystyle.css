@@ -28,6 +28,41 @@ ul {
     padding: 0;
 }
 
+.top-row{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.title{
+  font-size: 20px;
+  color: white;
+}
+
+.logo-small{
+  height: 40px;
+/*   border-radius: %; */
+}
+
+.about-container{
+  text-align:right;
+}
+.about{
+  text-align: right;
+  font-size: 16px;
+  vertical-align: middle;
+  color: white;
+/*   background-color: rgba(0,0,0,.5);
+  border: 3px solid rgba(0,0,0,.05); */
+  line-height: 200%;
+}
+
+.about:hover,
+.about:focus{
+  color: grey;
+  text-decoration: none;
+  outline: 0;
+  flow-into: none;
+}
+
 .small {
   font-size: 15px;
 }
@@ -186,11 +221,43 @@ a:focus {
   border-right: 1px ridge;
 }
 
+/* .link-button{
+  margin-bottom: 10px;
+ width: 160px;
+ height:160px;
+ display:block;
+  background: transparent url('assets/link.png');
+}
+*/
+.proj-link{
+  color: black;
+}
+
+.proj-link:hover{
+  color: #99A8C9;
+}
+.link-button:hover {
+   background: url('assets/link-blue.png') no-repeat;
+   width: 10px;
+   height: 10px;
+}
+
+.link-pic {
+  width: 10px;
+  height: 10px;
+}
 .proj-img{
   width: 130px;
   margin-top: 10px;
   margin-bottom: 10px;
+  transition: .7s ease;
+  backface-visibility: hidden;
 }
+
+.proj-img:hover {
+  opacity: 0.3;
+}
+
 .built-tag{
   font-size: 14px;
   background-color: lightgrey;
