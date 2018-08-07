@@ -28,6 +28,10 @@ ul {
     padding: 0;
 }
 
+h5 {
+  font-style: italic;
+}
+
 .top-row{
   margin-top: 20px;
   margin-left: 10px;
@@ -83,8 +87,10 @@ ul {
 }
 
 a {
-  color: white;
+  color: black;
+  font-style:normal;
 }
+
 a:hover,
 a:focus {
   color: #7b7b7b;
@@ -135,6 +141,11 @@ a:focus {
 .greeting {
   /*color: white;*/
   margin-top: 20px;
+}
+
+.contact-link {
+  color: white;
+
 }
 
 /**========NAV==============**/
@@ -209,6 +220,9 @@ a:focus {
   margin-left: 100px;
 }
 
+.experience-section, {
+  color: black;
+}
 /**==Projects==**/
 .projects{
   margin-left: 0px;
